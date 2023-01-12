@@ -98,7 +98,7 @@ def answer(msg: types.Message):
             dct[id_].clear()
             log_save(log_list)
         else:
-            new_log_bot(msg, ' Error. Input math action (+ - * / **)')
+            new_log_bot(msg, ' Error. Input math action (+ - * : **)')
 
 
 bot.polling()

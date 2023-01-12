@@ -21,7 +21,7 @@ class Log:
 
 
     def __str__(self):
-        return str(self.id) + ';' + str(self.user_id) + ';' + self.user + ';' + str(self.date_time) + ';' + \
+        return str(self.id) + ';' + str(self.user_id) + ';' + str(self.user) + ';' + str(self.date_time) + ';' + \
                str(self.msg_text)
 
 
