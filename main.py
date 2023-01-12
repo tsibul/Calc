@@ -10,7 +10,7 @@ bot = TeleBot(TOKEN)
 
 def new_log_user(msg):
     id_ = msg.from_user.id
-    name_ = msg.from_user.username
+    name_ = msg.from_user.full_name
     text = msg.text
     date_ = str(datetime.datetime.now())
     new_log = Log(len(log_list) + 1, id_, name_, date_, text)
